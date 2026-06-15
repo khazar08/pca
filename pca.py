@@ -95,7 +95,6 @@ def jacobi_eigen(A, max_sweeps=100, tol=1e-12):
     return eigenvalues, eigenvectors
 
 
-
 def pca(X, n_components=None):
     Xc, means = mean_center(X)
     cov = covariance_matrix(Xc)
