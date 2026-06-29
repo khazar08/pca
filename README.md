@@ -1,1 +1,1 @@
-A small Python program that performs PCA by finding the main directions of variance and projecting the data onto them.
+Principal Component Analysis (no imports) using Jacobi-rotation eigendecomposition of the covariance matrix, with Newton's-method sqrt. Built this for better intuition and linear algebra comprehension.
